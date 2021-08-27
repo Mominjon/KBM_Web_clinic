@@ -1,0 +1,60 @@
+.form {
+    margin-top: 250px;
+    background-color:  #333333;;
+    background-image: url(/img/fish-2.png), url(/img/Feedback.png), url(/img/Question.png);
+    background-size: contain, 200px, 200px;
+    background-repeat: no-repeat;
+    background-position: right, left 900px top -0px, top right;
+}
+.form-content {
+    display: flex;
+    iframe {
+        width: 500px;
+        margin-left: -89px;
+    }
+    div{
+        width: 400px;
+        margin-left: 5%;
+        margin-top: 50px;
+        h2 {
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 62px;
+            color: #FFFFFF;
+        }
+        p {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #949494;
+        }
+        textarea {
+            padding: 10px;
+        }
+        input {
+            width: 350px;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 3px;
+        }
+        // input:nth-child(3){
+            
+        // }
+        button {
+            background: #FFBD54;
+            border-radius: 0px;
+            font-size: 16px;
+            padding: 10px 20px;
+            line-height: 21px;
+            color: #FFFFFF;
+            border: none;
+            transition: all 0.5s;
+            margin-bottom: 30px;
+        }
+        button:hover {
+            background-color: #333333;
+            color: #FFFFFF;
+        }
+    }
+}

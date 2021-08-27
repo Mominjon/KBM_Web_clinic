@@ -1,0 +1,168 @@
+.owl-prev {
+    background: url('https://res.cloudinary.com/milairagny/image/upload/v1487938188/left-arrow_rlxamy.png') left center no-repeat;
+    height: 54px;
+    position: absolute;
+    top: 50%;
+    width: 27px;
+    z-index: 1000;
+    left: -3%;
+    cursor: pointer;
+    color: transparent;
+    margin-top: -27px;
+    border-radius: 5px;
+    background-color: rgba(134, 134, 134, 0.5)!important;
+  }
+  
+  .owl-next {
+    background: url('https://res.cloudinary.com/milairagny/image/upload/v1487938220/right-arrow_zwe9sf.png') right center no-repeat;
+    height: 55px;
+    position: absolute;
+    top: 50%;
+    width: 27px;
+    z-index: 1000;
+    right: -3%;
+    cursor: pointer;
+    margin-top: -27px;
+    border-radius: 5px;
+    background-color: rgba(134, 134, 134, 0.5)!important;
+  }
+  
+  .owl-prev:hover,
+  .owl-next:hover {
+    opacity: 1;
+  }
+  
+.my-item {
+    border: 1px solid #F9F8F8;
+    background: #fff;
+    width: 190px;
+    height: 180px;
+    img {
+        width: 70px!important;
+        height: 70px!important;
+        margin-top: 20%;
+        margin-left: 27%;
+    }
+    h3 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #333333;
+        width: 100px;
+        margin-top: 11%;
+        margin-left: 20%;
+    }
+}
+.our-servies {
+   h4{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 54px;
+        text-align: center;;
+        color: #333333;
+        margin-top: 250px;
+        margin-bottom: 50px;
+   }
+}
+.our-servies-content {
+    display: flex;
+    background: #fff;
+    img {
+        padding: 20px;
+    }
+    div {
+        margin-left: 3%;
+        margin-top: 7%;
+        h2 {
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 20px;
+            color: #333333;
+        }
+        p {
+            font-weight: normal;
+            font-size: 16px;
+            margin-top: 3%;
+            line-height: 20px;
+            color: #949494;
+        }
+        button {   
+            margin-top: 30px;
+            border: none;
+            background: #FFBD54;
+            border-radius: 3px;
+            padding: 10px 30px 10px 50px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+            transition: all 0.5s;
+            img {
+               margin-left: -60px;
+               margin-top: -20px;
+                height: 65px;
+                position: absolute;
+             
+            }
+        }
+        button:hover {
+            background-color: #333333;
+            color: #fff;
+        }
+        .btna {
+            color: #fff;
+            background: #333333;
+            border-radius: 3px;
+            margin-left: 10px;
+            transition: all 0.5s;
+        }
+        .btna:hover {
+            background-color: #FFBD54;
+            color: #000;
+        }
+    }
+}
+
+.zapros {
+    margin-top: 300px;
+    background-image: url(/img/dog-bg.png), url(/img/bg-color-dog.png);
+    background-size: 500px, 1600px;
+    background-repeat: no-repeat;
+    background-position: top 3px right 50px, top center;
+    padding-bottom: 200px;
+    .zapros-content {
+        margin-left: 150px;
+        padding: 100px 0;
+        h2 {
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 60px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+            margin-bottom: 20px;
+        }
+        input {
+            width: 300px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+        button {
+            padding: 9px 20px;
+            background: #333333;
+            border-radius: 3px;
+            color:#fff;
+            transition: all 0.5s;
+            border: none;
+        }
+        button:hover {
+            background-color: #FFBD54;
+            color: #000;
+        }
+    }
+}

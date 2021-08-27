@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./fonts/stylesheet.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/Komronbek.css">
+    <title>Animals</title>
+    <link rel="icon" href="./img/komronbek-img/logo.png" sizes="170x144">
+</head>
+<body>
+    <header>
+        <div class="mini-naw">
+            <ul>
+                <li>
+                    <img src="./img/house.svg" alt="">
+                    <h4>г. Мариуполь, проспект Победы, 48а</h4>
+                </li>
+                <li>
+                    <img src="./img/phone.svg" alt="">
+                    <a href="#">(067) 634 -75 - 74 </a>
+                    <a href="#">.(0637) 57 - 01 - 31</a>
+                    <a href="#">.(098) 266 - 43 - 89</a>
+                </li>
+                <li>
+                    <img src="./img/kalendar.svg" alt="">
+                    <h4>Пн - Пт 8:00 - 18:00  Сб - Вс 8:00 - 14:00</h4>
+                </li>
+            </ul>
+        </div>
+        <nav>
+            <h1></h1>
+            <img class="site-logo" src="./img/logo.png" alt="" >
+            <ul>
+                <li>
+                    <img src="./img/fish-1.png" alt="">
+                    <a href="./index.html">Главная</a>
+                </li>
+                <li>
+                    <a href="./about-campany.html">О Клинике</a>
+                </li>
+                <li>
+                    <a href="#uslugi">Наши Услуги</a>
+                </li>
+                <li>
+                    <a href="#stat">Полезные Статьи</a>
+                </li>
+                <li>
+                    <a href="./faq.html">FAQ</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Контакты</a>
+                </li>
+            </ul>
+            <a href="#">
+                <img src="./img/panja.png" alt="" height="20">
+                <h4 onclick="openFirstModal(firstModal,secondModal)">Задать вопрос</h4>
+            </a>
+        </nav>
+    </header>
+    <main class="main-about">
+        <section class="intro-about">
+            <div class="container">
+                <div class="intro-about-info">
+                    <h2 class="intro-about-title">О клинике</h2>
+                    <p class="intro-about-text">
+                        Собака, кошка, попугай, шиншилла… Сколько радости и <br>
+                         тепла приносят эти весёлые друзья в наш дом.
+                    </p>
+                    <img src="./img/komronbek-img/Group 22.png" alt="panja" class="intro-about-img1">
+                    <img src="./img/komronbek-img/Object.png" alt="" class="intro-about-img2">
+                </div>
+                <div class="intro-about-img-box">
+                    <img class="intro-about-woamn-img" width="435" height="525" src="./img/komronbek-img/kiss-woman.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="house-about">
+            <div class="container">
+                <div class="house-big-box">
+                    <div class="house-about-img-box">
+                        <img src="./img/komronbek-img/home.png" alt="home" width="705" height="449" class="house-about-img">
+                    </div>
+                    <div class="house-about-info">
+                        <p class="house-about-text">
+                            Принимая решение о том, чтобы завести <span> домашнего любимца</span>, или <br> уже имея его, мы не должны забывать, что животное это живой <br> организм, который требует не только нашей любви, а и заботы о её <br> здоровье и  внешнем виде. <span>Ответственность</span> хозяина заключается в <br> чётком выполнении правил по уходу за животным, своевременного <br> обращения к врачу за консультацией и помощи в решении любого <br>
+                            вопроса. Ведь мы в ответе за тех, кого приручили!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="dog-about">
+            <div class="container">
+                <div class="dog-about-info">
+                    <p class="dog-about-text">
+                        Ветеринарная клиника предоставляет широкий спектр услуг,  начиная от   <br> простых профилактических мероприятий до сложных хирургических <br> вмешательств. Мы проводим рентгенографические, ультразвуковые <br> исследования.Проводится анализ крови как общеклинический, так и <br> биохимический. Проводится общий анализ мочи с микроскопией осадка. 
+                    </p>
+                    <p class="dog-about-text">
+                        Только у нас Вы можете провести <span>анализ крови кошек</span> на такие <br> заболевания как панлейкопения, кальцивироз, герпесвирусная инфекция, <br> короновироз, токсоплазмоз и хламидиоз. А также <span>собак на такие <br> заболевания </span> как инфекционный гепатит, парвовирусный энтерит, чума <br> плотоядных. С полным спектром услуг можно ознакомиться здесь.
+                    </p>
+                </div>
+                <div class="dog-about-img-box">
+                    <img src="./img/komronbek-img/kiss-dog.png" alt="dog" class="dog-about-img">
+                </div>
+            </div>
+        </section>
+        <section class="slider-about">
+            <div class="container">
+                <div class="slider-big-box">
+                    <div class="slider-info-box">
+                        <h2 class="slider-about-title">Хочешь подстричь <br> <span>питомца?</span></h2>
+                        <p class="slider-about-text">
+                            В лечебнице работает кабинет груммера, после
+                             посещения которого, Ваш любимец будет особенно
+                              неотразим и привлекателен.
+                        </p>
+                        <div class="btn-box">
+                           <div class="btn-boxs">
+                            <button class="slider-about-btn">
+                                <i class='bx bx-chevron-left'></i>
+                            </button>
+                            <button class="slider-about-btn">
+                                <i class='bx bx-chevron-right'></i>
+                            </button>
+                           </div>
+                            <div class="spans-div">
+                                <p>1 <span>/</span> 5</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-about-img-box">
+                        <ul class="slider-list">
+                            <li class="slider-item">
+                                <img class="slider-item-img" src="./img/komronbek-img/Rectangle-7.png" alt="">
+                            </li>
+                            <li class="slider-item">
+                                <img class="slider-item-img" src="./img/komronbek-img/Rectangle-8.png" alt="">
+                            </li>
+                            <li class="slider-item">
+                                <img class="slider-item-img small" src="./img/komronbek-img/Rectangle-9.png" alt="">
+                            </li>
+                            <!-- <li class="slider-item">
+                                <img class="slider-item-img" src="./img/Rectangle-7.png" alt="">
+                            </li>
+                            <li class="slider-item">
+                                <img class="slider-item-img" src="./img/Rectangle-7.png" alt="">
+                            </li>
+                            <li class="slider-item">
+                                <img class="slider-item-img" src="./img/Rectangle-7.png" alt=""> -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+               <div class="footer-big-box">
+                <img src="./img/logo.png" alt="logo">
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <ul class="footer-item-list">
+                            <li class="footer-item-item">
+                                <a href="./index.html" class="footer-item-item-link">
+                                    Главная
+                                </a>
+                            </li>
+                            <li class="footer-item-item">
+                                <a href="./about-campany.html" class="footer-item-item-link">
+                                    О Клинике
+                                </a>
+                            </li>
+                            <li class="footer-item-item">
+                                <a href="./servies.html" class="footer-item-item-link">
+                                    Наши Услуги
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer-item">
+                        <ul class="footer-item-list">
+                            <li class="footer-item-item">
+                                <a href="./servicas_open.html" class="footer-item-item-link">
+                                    Полезные Статьи
+                                </a>
+                            </li>
+                            <li class="footer-item-item">
+                                <a href="./faq.html" class="footer-item-item-link">
+                                    FAQ
+                                </a>
+                            </li>
+                            <li class="footer-item-item">
+                                <a href="./contact.html" class="footer-item-item-link">
+                                    Контакты
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    <li class="footer-item top">
+                     <div class="footer-box">
+                        <div class="footer-item-box">
+                            <img src="./img/kalendar.svg" alt="kalendar">
+                           </div>
+                           <p> Пн - Пт 8:00 - 18:00 <br>
+                            Сб - Вс 8:00 - 14:00</p>
+                     </div>
+                    </li>
+                    <li class="footer-item top">
+                        <div class="footer-box">
+                            <div class="footer-item-box">
+                                <img src="./img/house.svg" alt="">
+                            </div>
+                           <p> г. Мариуполь, <br> проспект Победы, 48а</p>
+                        </div>
+                    </li>
+                    <li class="footer-item top1">
+                        <div class="footer-box">
+                            <div class="footer-item-box">
+                                <img src="./img/phone.svg" alt="">
+                            </div>
+                            (067) 634 -75 - 74 <br>
+                            (0637) 57 - 01 - 31 <br>
+                            (098) 266 - 43 - 89
+                        </div>
+                    </li>
+                </ul>
+               </div>
+                <p class="footer-text">© 2020 example. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </main>
+    <div class="first__modal">
+        <div class="modal_content">
+            <button class="closeBtn">&times</button>
+            <div class="row">
+                <div class="col-6 enter">
+                    <h3>Авторизация:</h3>
+                    <a href="#"><img src="./img/button1.png" alt=""></a>
+                    <a href="#"><img src="./img/button.png" alt=""></a>
+                </div>
+                <div class="col-6 question-send">
+                    <h1>Задать вопрос</h1>
+                    <input class="nameInput" type="text" placeholder="Ваше имя">
+                    <textarea class="textArea" cols="30" rows="10" placeholder="Опишите Ваш вопрос.
+    Например: в каком возрасте можно прививать от бешенства?"></textarea>
+                    <button class="sendBtn">Отправить</button>
+                </div>
+            </div>
+            <img class="modal-img" src="./img/faq-img/kisspng-pet-sitting-dog-cat-puppy-chien-5b4a3b08951554 1.png" alt="">
+        </div>
+    </div>
+    
+    <!-- ! Second Modal Window -->
+    <div class="second__modal">
+        <div class="modal_content">
+            <button class="closeBtn2">&times</button>
+            <div class="row">
+                <div class="col-6"></div>
+                <div class="col-6 question-send">
+                    <h1>Остались вопросы?</h1>
+                    <input class="nameInput" type="text" placeholder="Ваше имя">
+                    <input class="nameInput" type="text" placeholder="Email для обратной связи">
+                    <textarea class="textArea" cols="30" rows="10" placeholder="Опишите Ваш вопрос.
+    Например: в каком возрасте можно прививать от бешенства?"></textarea>
+                    <button class="sendSecondQuestion">Задать вопрос</button>
+                </div>
+            </div>
+            <img class="modal-img" src="./img/faq-img/kisspng-jack-russell-terrier-parson-russell-terrier-miniat-pets-5abe32494467e5 2.png" alt="">
+        </div>
+    </div>
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <script src="./JS/modal.js"></script>
+</body>
+</html>

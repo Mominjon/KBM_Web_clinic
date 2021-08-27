@@ -1,0 +1,87 @@
+.intro-section {
+    background-image: url(/img/intro-bg.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 1350px;
+    padding-top: 90px;
+    div {
+        .intro-content{
+            margin-right: 200px;
+            width: 600px;
+            margin-left: 600px;
+            margin-top: 150px;
+            h1 {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 65px;
+                line-height: 54px;
+                color: #333333;
+                span {
+                    color: rgb(135, 135, 218);
+                }
+            }
+            p {
+                color: #949494;
+                width: 500px;
+            }
+            button {
+                padding: 10px 30px;
+                background: #333333;
+                color: #fff;
+                border: none;
+                border-radius: 3px;
+                margin-top: 20px;
+                transition: all 0.5s;
+            }
+            button:hover {
+                background-color: #FFBD54;
+                color: #000;
+            }
+        }
+        
+    }
+}
+.intro-eng {
+    margin-top: 450px;
+    hr {
+        width: 200px;
+        margin-left: 40%;
+        text-align: center;
+    }
+    p {
+        padding: 40px 0;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        color: #949494;
+        text-align: center;
+        width: 700px;
+        margin-left: 18%;
+
+    }
+    p::after {
+        content: ",,";
+        margin-top: -20px;
+        font-size: 100px;
+        margin-left: 100px;
+        position: absolute;
+    }
+    p::before {
+        content: "“";
+        margin-top: 0px;
+        font-size: 100px;
+        margin-left: -80px;
+        position: absolute;
+    }
+    h4 {
+        text-align: center;
+        margin-top: 20px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        color: #333333;
+    }
+}
